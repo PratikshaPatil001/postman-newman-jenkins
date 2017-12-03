@@ -1,0 +1,47 @@
+{
+	"id": "bc69a339-f84b-556e-9a1f-f16d3bfe2862",
+	"name": "Postman testing",
+	"description": "",
+	"order": [
+		"0cff3931-0000-02f6-de30-139365e76a54"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1511941053036,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "0cff3931-0000-02f6-de30-139365e76a54",
+			"headers": "",
+			"headerData": [],
+			"url": "https://pratikshapatil-prod.apigee.net/demo-weather?q=mumbai",
+			"queryParams": [
+				{
+					"key": "q",
+					"value": "mumbai",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bc69a339-f84b-556e-9a1f-f16d3bfe2862",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Demo-weather",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1511941059069,
+			"version": 2,
+			"responses": [],
+			"tests": "pm.test(\"Content-Type is present\", function () {\r\n    pm.response.to.have.header(\"Content-Type\");\r\n});\r\n",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"queryBalanceRequest\": {\n\t\t\"msisdn\":\"\",\n\t\t\"dfsd\":\"dfsd\",\n\t\t\"dfdfgf\":\"djdhfkd\"\n\t}\n}\n"
+		}
+	]
+}
