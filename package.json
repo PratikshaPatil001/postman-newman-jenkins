@@ -4,7 +4,7 @@
   "description": "Project for storing postman tests",
   "main": "index.js",
   "scripts": {
-    "test": "newman run Postman testing.postman_collection.json"
+    "test": "newman run testing.postman_collection.json"
   },
   "author": "",
   "license": "ISC",
